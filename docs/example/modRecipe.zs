@@ -1,5 +1,5 @@
 /*
-    SkyFactory 4 %mod% Recipe Script
+    EggBlock %mod% Recipe Script
     This script handles the recipes for %mod%.
 */
 import crafttweaker.item.IItemStack;
