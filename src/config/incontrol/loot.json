@@ -1,0 +1,18 @@
+[
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:glowstone_dust"
+  },
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:redstone"
+  },
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:sugar"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "remove": "minecraft:iron_ingot"
+  }
+]

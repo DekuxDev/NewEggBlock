@@ -1,0 +1,6 @@
+
+{
+  "Name": "statues:FakeEnderman",
+  "Registry ID": "statues:fake_enderman",
+  "Class": "com.svennieke.statues.entity.fakeentity.FakeEnderman"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "statues:StatueBat",
+  "Registry ID": "statues:statue_bat",
+  "Class": "com.svennieke.statues.entity.EntityStatueBat"
+}
