@@ -1,18 +1,14 @@
+#priority -100
+#Author DekuxDev
 /*
-    EggBlock %mod% Recipe Script
-    This script handles the recipes for %mod%.
+Specials thanks to SevTech:Ages devs and SkyFactory 4 for the base to these scripts
 */
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
-import scripts.crafttweaker.stages.stageZero;
-import scripts.crafttweaker.stages.stageOne;
-import scripts.crafttweaker.stages.stageTwo;
-import scripts.crafttweaker.stages.stageThree;
-import scripts.crafttweaker.stages.stageFour;
-import scripts.crafttweaker.stages.stageFive;
 
 /*
     Shaped Recipes
