@@ -3,7 +3,10 @@ printDocumentation(false)
 removeVanillaAdvancements(true)
 removeModAdvancements(true)
 keepAdvancements([""])
-removeAdvancements([""])
+removeModAdvancements(false)
 allowDragging(true)
 useNewParentCompletionCriteriaNames()
 pageOrder([""])
+
+
+
