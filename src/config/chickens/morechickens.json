@@ -799,5 +799,65 @@
     "Parent 1": "chickens:redstonechicken",
     "Parent 2": "chickens:enderchicken",
     "Lay Coefficient": 0.30
+  },
+  "morechickens:yellowgarnetchicken": {
+    "Name": "yellowgarnetchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "techreborn:gem:4",
+    "Drop Item": "techreborn:gem:4",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:glasschicken",
+    "Parent 2": "chickens:glowstonechicken"
+  },
+  "morechickens:chromechicken": {
+    "Name": "chromechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "techreborn:ingot:3",
+    "Drop Item": "techreborn:ingot:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:tinchicken",
+    "Parent 2": "morechickens:titaniumchicken"
+  },
+  "morechickens:titaniumchicken": {
+    "Name": "titaniumchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "techreborn:ingot:14",
+    "Drop Item": "techreborn:ingot:14",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "morechickens:aluminumchicken"
+  },
+  "morechickens:tungstenchicken": {
+    "Name": "tungstenchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "techreborn:ingot:15",
+    "Drop Item": "techreborn:ingot:15",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:enderchicken",
+    "Parent 2": "morechickens:refinedironchicken"
+  },
+  "morechickens:tungstensteelchicken": {
+    "Name": "tungstensteelchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "techreborn:ingot:17",
+    "Drop Item": "techreborn:ingot:17",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:tungstenchicken",
+    "Parent 2": "morechickens:steelchicken"
+  },
+  "morechickens:refinedironchicken": {
+    "Name": "refinedironchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "techreborn:ingot:19",
+    "Drop Item": "techreborn:ingot:19",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "chickens:ironchicken"
   }
 }

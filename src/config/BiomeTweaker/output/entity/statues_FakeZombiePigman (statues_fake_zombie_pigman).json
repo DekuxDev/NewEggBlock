@@ -1,0 +1,6 @@
+
+{
+  "Name": "statues:FakeZombiePigman",
+  "Registry ID": "statues:fake_zombie_pigman",
+  "Class": "com.svennieke.statues.entity.fakeentity.FakeZombiePigman"
+}

@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "NETHER",
-    "DRY"
+    "DRY",
+    "NETHER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -39,6 +39,12 @@
       "Weight": 50,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityFoxhound",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "vazkii.quark.world.entity.EntityWraith",
