@@ -29,9 +29,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-    <botania:fertilizer>: [
-        [<minecraft:dye:15>,<ore:dyeRed>,<ore:dyeRed>,<ore:dyeYellow>,<ore:dyeYellow>]
-    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -41,8 +38,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-
-    <botania:fertilizer>
+    <chickens:colored_egg:*>
 ];
 
 function init() {

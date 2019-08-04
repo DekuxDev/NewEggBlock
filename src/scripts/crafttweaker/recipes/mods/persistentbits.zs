@@ -11,6 +11,13 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <persistentbits:chunk_loader>: [
+        [
+            [null,<extrautils2:chunkloader>],
+            [<extrautils2:chunkloader>,<minecraft:nether_star>,<extrautils2:chunkloader>],
+            [<extrautils2:chunkloader>,<minecraft:enchanting_table>,<extrautils2:chunkloader>]
+        ]
+    ],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -29,9 +36,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-    <botania:fertilizer>: [
-        [<minecraft:dye:15>,<ore:dyeRed>,<ore:dyeRed>,<ore:dyeYellow>,<ore:dyeYellow>]
-    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -41,8 +45,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-
-    <botania:fertilizer>
+    <persistentbits:chunk_loader>
 ];
 
 function init() {

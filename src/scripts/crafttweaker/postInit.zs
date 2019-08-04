@@ -11,10 +11,16 @@ import mods.zenstages.ZenStager;
 Initialize Scripts
 */
 initRecipes();
-
 /*
 Initialize Functions
 */
+ZenStager.buildAll();
+
 function initRecipes() {
 	scripts.crafttweaker.recipes.removeAndHide.init();
+
+	scripts.crafttweaker.recipes.mods.botania.init();
+	scripts.crafttweaker.recipes.mods.chickens.init();
+	scripts.crafttweaker.recipes.mods.sonarcore.init();
+	scripts.crafttweaker.recipes.mods.persistentbits.init();
 }
