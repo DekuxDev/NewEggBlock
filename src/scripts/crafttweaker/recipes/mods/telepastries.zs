@@ -38,6 +38,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
+	<telepastries:end_cake>
 ];
 
 function init() {

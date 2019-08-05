@@ -15,7 +15,13 @@ static removeAndHideIngredients as IIngredient[] = [
 	<industrialforegoing:black_hole_unit>,
 	<industrialforegoing:black_hole_controller>,
 	<industrialforegoing:black_hole_tank>,
-	<industrialforegoing:ore_processor>
+	<industrialforegoing:ore_processor>,
+	<sonarcore:reinforcedstoneblock>,
+    <sonarcore:reinforceddirtblock>,
+    <sonarcore:reinforcedstonebrick>,
+    <sonarcore:reinforceddirtbrick>,
+    <sonarcore:stablestone_normal>*2,
+    <sonarcore:stableglass>*2
 ];
 
 function init() {

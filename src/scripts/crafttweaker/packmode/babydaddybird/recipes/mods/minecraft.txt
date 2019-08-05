@@ -1,4 +1,5 @@
 #priority 1
+#packmode daddybird
 #author DekuxDev
 #modpack EggBlock Rebuild
 import crafttweaker.item.IItemStack;
@@ -11,6 +12,20 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <minecraft:piston>: [
+        [
+            [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+            [<quark:sturdy_stone>,<ore:stickIron>,<quark:sturdy_stone>],
+            [<quark:sturdy_stone>,<gadgetrycore:redmetal_ingot>,<quark:sturdy_stone>]
+        ]
+    ],
+    <minecraft:furnace>: [
+        [
+            [<extrautils2:compressedcobblestone>,<extrautils2:compressedcobblestone>,<extrautils2:compressedcobblestone>],
+            [<extrautils2:compressedcobblestone>,null,<extrautils2:compressedcobblestone>],
+            [<extrautils2:compressedcobblestone>,<extrautils2:compressedcobblestone>,<extrautils2:compressedcobblestone>]
+        ]
+    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -38,6 +53,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
+    <minecraft:piston>
+    <minecraft:furnace>
+    <minecraft:bucket>
 ];
 
 function init() {

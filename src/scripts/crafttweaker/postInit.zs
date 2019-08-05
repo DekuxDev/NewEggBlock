@@ -11,6 +11,7 @@ import mods.zenstages.ZenStager;
 Initialize Scripts
 */
 initRecipes();
+initPackmode();
 /*
 Initialize Functions
 */
@@ -23,4 +24,18 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.chickens.init();
 	scripts.crafttweaker.recipes.mods.sonarcore.init();
 	scripts.crafttweaker.recipes.mods.persistentbits.init();
+	scripts.crafttweaker.recipes.mods.telepastries.init();
+}
+
+function initPackmode() {
+	//Pack Modes
+	/*
+	Baby Mamabird
+	*/
+	scripts.crafttweaker.packmode.babymamabird.recipes.mods.chickens.init();
+	scripts.crafttweaker.packmode.babymamabird.recipes.mods.telepastries.init();
+	/*
+	Daddy Bird
+	*/
+	//scripts.crafttweaker.packmode.babydaddybird.recipes.mods.chickens.init();
 }

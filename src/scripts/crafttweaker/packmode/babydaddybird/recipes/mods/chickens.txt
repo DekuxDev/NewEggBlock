@@ -1,0 +1,168 @@
+#priority 1
+#packmode daddybird
+#author DekuxDev
+#modpack EggBlock Rebuild
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+import mods.zenstages.Utils;
+
+
+/*
+    Shaped Recipes
+*/
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <chickens:colored_egg>: [
+        [
+            [<ore:dyeBlack>,<ore:dyeBlack>,<ore:dyeBlack>],
+            [<ore:dyeBlack>,<minecraft:egg>,<ore:dyeBlack>],
+            [<ore:dyeBlack>,<ore:dyeBlack>,<ore:dyeBlack>]
+        ]
+    ],
+    <chickens:colored_egg:1>: [
+        [
+            [<ore:dyeRed>,<ore:dyeRed>,<ore:dyeRed>],
+            [<ore:dyeRed>,<minecraft:egg>,<ore:dyeRed>],
+            [<ore:dyeRed>,<ore:dyeRed>,<ore:dyeRed>]
+        ]
+    ],
+    <chickens:colored_egg:2>: [
+        [
+            [<ore:dyeGreen>,<ore:dyeGreen>,<ore:dyeGreen>],
+            [<ore:dyeGreen>,<minecraft:egg>,<ore:dyeGreen>],
+            [<ore:dyeGreen>,<ore:dyeGreen>,<ore:dyeGreen>]
+        ]
+    ],
+    <chickens:colored_egg:3>: [
+        [
+            [<ore:dyeBrown>,<ore:dyeBrown>,<ore:dyeBrown>],
+            [<ore:dyeBrown>,<minecraft:egg>,<ore:dyeBrown>],
+            [<ore:dyeBrown>,<ore:dyeBrown>,<ore:dyeBrown>]
+        ]
+    ],
+    <chickens:colored_egg:4>: [
+        [
+            [<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>],
+            [<ore:dyeBlue>,<minecraft:egg>,<ore:dyeBlue>],
+            [<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>]
+        ]
+    ],
+    <chickens:colored_egg:5>: [
+        [
+            [<ore:dyePurple>,<ore:dyePurple>,<ore:dyePurple>],
+            [<ore:dyePurple>,<minecraft:egg>,<ore:dyePurple>],
+            [<ore:dyePurple>,<ore:dyePurple>,<ore:dyePurple>]
+        ]
+    ],
+    <chickens:colored_egg:6>: [
+        [
+            [<ore:dyeCyan>,<ore:dyeCyan>,<ore:dyeCyan>],
+            [<ore:dyeCyan>,<minecraft:egg>,<ore:dyeCyan>],
+            [<ore:dyeCyan>,<ore:dyeCyan>,<ore:dyeCyan>]
+        ]
+    ],
+    <chickens:colored_egg:7>: [
+        [
+            [<ore:dyeLightGray>,<ore:dyeLightGray>,<ore:dyeLightGray>],
+            [<ore:dyeLightGray>,<minecraft:egg>,<ore:dyeLightGray>],
+            [<ore:dyeLightGray>,<ore:dyeLightGray>,<ore:dyeLightGray>]
+        ]
+    ],
+    <chickens:colored_egg:8>: [
+        [
+            [<ore:dyeGray>,<ore:dyeGray>,<ore:dyeGray>],
+            [<ore:dyeGray>,<minecraft:egg>,<ore:dyeGray>],
+            [<ore:dyeGray>,<ore:dyeGray>,<ore:dyeGray>]
+        ]
+    ],
+    <chickens:colored_egg:9>: [
+        [
+            [<ore:dyePink>,<ore:dyePink>,<ore:dyePink>],
+            [<ore:dyePink>,<minecraft:egg>,<ore:dyePink>],
+            [<ore:dyePink>,<ore:dyePink>,<ore:dyePink>]
+        ]
+    ],
+    <chickens:colored_egg:10>: [
+        [
+            [<ore:dyeLime>,<ore:dyeLime>,<ore:dyeLime>],
+            [<ore:dyeLime>,<minecraft:egg>,<ore:dyeLime>],
+            [<ore:dyeLime>,<ore:dyeLime>,<ore:dyeLime>]
+        ]
+    ],
+    <chickens:colored_egg:11>: [
+        [
+            [<ore:dyeYellow>,<ore:dyeYellow>,<ore:dyeYellow>],
+            [<ore:dyeYellow>,<minecraft:egg>,<ore:dyeYellow>],
+            [<ore:dyeYellow>,<ore:dyeYellow>,<ore:dyeYellow>]
+        ]
+    ],
+    <chickens:colored_egg:12>: [
+        [
+            [<ore:dyeLightBlue>,<ore:dyeLightBlue>,<ore:dyeLightBlue>],
+            [<ore:dyeLightBlue>,<minecraft:egg>,<ore:dyeLightBlue>],
+            [<ore:dyeLightBlue>,<ore:dyeLightBlue>,<ore:dyeLightBlue>]
+        ]
+    ],
+    <chickens:colored_egg:13>: [
+        [
+            [<ore:dyeMagenta>,<ore:dyeMagenta>,<ore:dyeMagenta>],
+            [<ore:dyeMagenta>,<minecraft:egg>,<ore:dyeMagenta>],
+            [<ore:dyeMagenta>,<ore:dyeMagenta>,<ore:dyeMagenta>]
+        ]
+    ],
+    <chickens:colored_egg:14>: [
+        [
+            [<ore:dyeOrange>,<ore:dyeOrange>,<ore:dyeOrange>],
+            [<ore:dyeOrange>,<minecraft:egg>,<ore:dyeOrange>],
+            [<ore:dyeOrange>,<ore:dyeOrange>,<ore:dyeOrange>]
+        ]
+    ],
+    <chickens:colored_egg:15>: [
+        [
+            [<ore:dyeWhite>,<ore:dyeWhite>,<ore:dyeWhite>],
+            [<ore:dyeWhite>,<minecraft:egg>,<ore:dyeWhite>],
+            [<ore:dyeWhite>,<ore:dyeWhite>,<ore:dyeWhite>]
+        ]
+    ]
+};
+
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+};
+
+/*
+    Mirrored Recipes
+*/
+static mirroredRecipes as IIngredient[][][][IItemStack] = {
+};
+
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
+};
+
+/*
+    Shapeless Recipes
+*/
+static shapelessRecipes as IIngredient[][][IItemStack] = {
+};
+
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+};
+
+/*
+    Recipe Removals
+*/
+static removeRecipes as IItemStack[] = [
+];
+
+function init() {
+	// Un-named recipes
+	recipeUtil.process(shapedRecipes, false);
+    recipeUtil.process(mirroredRecipes, true);
+    recipeUtil.process(shapelessRecipes);
+
+	// Named recipes
+	recipeUtil.processNamed(namedShapedRecipes, false);
+    recipeUtil.processNamed(namedMirroredRecipes, true);
+    recipeUtil.processNamed(namedShapelessRecipes);
+
+	recipeUtil.removeRecipes(removeRecipes);
+}

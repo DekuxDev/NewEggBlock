@@ -1,4 +1,4 @@
-#priority -100
+#priority 1
 #Author DekuxDev
 #Mod Magneticraft 
 import crafttweaker.item.IIngredient;

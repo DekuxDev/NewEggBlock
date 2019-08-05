@@ -11,6 +11,13 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+    <telepastries:end_cake>: [
+        [
+            [<draconicevolution:wyvern_core>,<minecraft:ender_eye>,<draconicevolution:wyvern_core>],
+            [<ore:endstone>,<harvestcraft:pineappleupsidedowncakeitem>,<ore:endstone>],
+            [<ore:endstone>,<ore:endstone>,<ore:endstone>]
+        ]
+    ],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
