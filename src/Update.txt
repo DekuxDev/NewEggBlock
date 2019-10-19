@@ -1,0 +1,696 @@
+/*
+EggBlock Rebuild Update
+*/
+
+*Remove
+	- JustAnotherSand 
+	- BetterQuesting
+			- QuestBook
+			- Standar Expansion 
+	- The One Probe
+			- Top Addons
+	- Mod Name Tooltip
+	- Lapis Stay in the Enchanting Table (Useless)
+	- Colossal Chest (Useless and cause some lag)
+	- EnderTanks (Replace by Ender Storage 1.8.+)
+	- MultiStorage
+	- Player Skin Mob (Replace by Raiders)
+*Added
+	- Ender Storage 1.8.+
+	- FTB Quest (Replace BetterQuesting mods)
+	- Hwyla
+			-WathAreLokingAt (Wawla)
+	- Snad (Replace JustAnotherSnad)
+	- Raiders
+*Update
+	- Actually Additions r126 - r150
+		- Changelog
+			- Greenhouse glass does not stack.
+			- Black Quartz is now oredicted in recipes.
+			- Fixed a crash in the booklet.
+	- Additional Banners 1.1.40 - 1.1.77
+		- Changelog 
+			- Added a banner pattern for clubs, diamonds, hearts, spades, feathers, and snowflakes.
+	- AutoRegLib 1.3-15 - 1.3-32
+		- Changelog
+			- Added more rotation utils. 
+			- Allow blocks with blockstate variants to map items models to item jsons.
+			- Fixed Multi Recipes not showing up in JEI.
+			- Fixed a rare crash when an invalid event is passed to the client ticker.
+	- B.A.S.E 3.5.0 - 3.13.0
+		- Changelog
+			- New
+				- Material System
+				  12 Parts: "centrifuged_ore", "chipped_gem", "flawed_gem", "flawless_gem", "large_spring", "long_rod", "purified_ore", "ring", "round", "small_dust",
+				  "small_spring", "tiny_dust"
+			- Fixes
+				- Material System
+				  Ores no longer drop full stacks after a period of time
+				  Custom Records now get proper Models
+	- Baubles 1.5.1 - 1.5.2
+		- Changelog
+			- API: added isBaubleEquipped helper method to BaublesAPI
+			- fixed player bauble syncing
+	- Better Advancements 0.0.5.17 - 0.1.0.77
+		- Changelog
+			- changes how textures are used and when recolouring is applied
+	- BiblioCraft 2.4.3 - 2.4.5
+		- Changelog 
+			- Fixed a crash that keeps occuring with the clipboard
+			- Fixed a crash with framed fancy signs that came up after the previous update
+			- Fixed a nullpointer crash that could occur with the atlas, canvas, compass, map tool, marker pole, and seak backs.
+			- Fixed the reading enchantment so it can be applied to helmets and helmets function like the reading glasses again.
+			- Fixed enchantments on books not showing up with the reading glasses or a helmet with reading enchantment
+			- Added support for new Mystcraft books and such on bookcases.
+	- Binnie's Mods 2.5.0.111 - 2.5.1.188
+		- Changelog 
+			- https://www.curseforge.com/minecraft/mc-mods/binnies-mods/files/2676539 (Its to long, so if you wanna know what is new here is the link)
+	- BiomeTweaker 3.1.312 - 
+		- Changelog  
+			- Removed "contiugousReplacement" property. Same result achievable by copying the biome.
+			- Fixed biome copying crashing on servers
+			- Now allows non-lowercase property names when copying biomes
+			- Fixed a few script parsing errors
+			- Added "ignoreMeta" property to block replacements
+			- Added Spanish (Argentina) translation
+			- Internal and dependency updates
+	- Botania  r1.10-352 - r1.10-361
+		- Changelog 
+			- Corporea cubes can now be locked (similar to the Hovering Hourglass) to prevent accidental changing of the item.
+			- Fixed Daffomill desyncing clientside when items are dropped by powered open crates.
+			- Fixed Drum of the Wild always choosing the same positions to harvest.
+			- Fixed magnet ring blacklist not working quite right.
+			- Fixed placeholders being consumed by crafty crates.
+			- Fixed server crashing if a Mana Enchanter picks up modded enchantments that have been removed from the save.
+			- Fixed triggering a corporea funnel with a corporea interceptor overwriting request counts.
+			- Fixed wrong Baubles API method being used.
+			- Update ru_ru lang file.
+			- Various Gaia Guardian anti-cheese measures.
+	- Brandon's Core 2.3.7.140 - 2.4.17.208
+		- Changelog 
+			- there's no changelog
+	- Calculator 5.0.2 - 5.0.11  
+		- Changelog 
+			- Fixes
+				Fixed JEI Crash on load
+	- CapabilityProxy 2.1.1 - 2.1.3
+		- Changelog 
+			- Update to Forge 14.23.5.2768 and MCP snapshot_20180814
+			- Add config warning regarding high range values
+	- Career Bees 0.1.0 - 0.4.0
+			- Changelog 
+				- Added Electrician bees, Assassin bees, Robot bees, Devil bees, Priest bees, Politician bees and N.C.A. bees.
+	- Carry On 1.7 - 1.12.2
+		- Changelog
+			- You can now carry things through portals				
+			- Added support for LLibrary
+			- Added various mods to the default blacklist
+	- Ceramics 1.3.3b - 1.3.7 
+		- Changelog
+				- Barrels are now a bit cheaper, requiring only 5 clay per barrel and 3 per extension
+				- Faucets and channels now must be fired instead of being made from bricks
+				- Lava bricks now are now made using a TInkers casting basin if available
+				- If porcelain is disabled, channels and faucets will now be made of regular clay
+			- Fixes
+
+				- Fixed milk picked up from a fluid tank not being drinkable
+				- Fixed fences, walls, and glass panes connecting to faucets, channels, and barrels when they shouldn't
+				- Fix some items showing in JEI and creative when disabled
+				- Fix barrels sometimes not saving when quitting the world too quickly after filling them
+				- Improve network code
+				- Fix some invalid barrel structures being accepted
+	- Chameleon 3.1.0.217 - 4.1.3
+		- Changelog
+				- Fix items using multiItem appearing on all creative tabs
+	- Chickens 6.0.3 - 6.0.4
+		- Changelog
+				- Small change to help with Ender IO integration to allow chickens in its spawners. 
+				- Fixing server side crash when using Craft Tweaker to change spawn egg recipe. 
+	- Chisel 0.1.1.26 - 1.0.0.42
+		- Changelog
+				- curseforge.com/minecraft/mc-mods/chisel/files/2809394	(Its to long, so if you wanna know what is new here is the link)
+	- Chisels & Bits 14.12. - 14.33 
+	    - Changelog
+	        - Fix an issue with item duplication.
+	        - Fix an issue with placing chiseled blocks.
+	        - Fix an issue with fake players not being able to place chiseled blocks properly.
+	        - Fix deleting chisels and broken crafting recipe when chisel damage is disabled.
+	- Clumps 3.0.0 - 3.1.2			
+	    - Changelog 
+			- Fixed xp duplication bug
+			- Fixed crash on lan / MP
+	- CodeChicken Lib 1.8.+ 3.1.5.331 - 3.2.3.358
+		- Changelog 
+			- there's no changelog
+	- CoFH Core 4.3.8.29 - 4.6.3.27
+	    - Changelog 
+	        - Full changelog here https://github.com/CoFH/Version/blob/master/cofhcore_changelog.txt
+	- CoFH World 1.1.1.12 - 1.3.1.7
+		- Changelog 
+			- there's no changelog
+	- Common Capabilities 1.4.0 - 2.4.4
+		- Changelog
+			- Store counts in PrototypedIngredientAlternativesItemStackOredictionary
+			-Required for CyclopsMC/IntegratedDynamics
+			- Fixes:
+				- Fix IngredientComponent registry crash when CommonCaps is not available
+	- Compact Machines 3.0.5-b184 - 3.0.18-b278
+		- Changelog
+			- GUI rework. Added rename functionality to machine GUI.
+			- Compact Skies: Players are being teleported to their own hub machine when returning to the overworld (this only works for newly claimed machines in the hub).
+			- Fix miniaturization crafting not resolving properly on clients, sometimes resolving in infinite crafting loops (only client side)
+			- Fix Cyclic Wireless Transmitter next to RedstoneTunnel causing NullPointerExceptions
+			- Fix preview crash for Yabba barrels and Industrial Foregoing Lasers
+			- Added basic API to allow other mods access to connected blocks of Machines and Tunnels
+			- Be less verbose when loading the machine world
+	- ConnectedTexturesMod 0.2.3.12 - 1.0.0.29
+		- Changelog
+			- Fix possible crash when other mods attempt to retexture our models (specifically UnlimitedChiselWorks)
+	- Controlling  3.0.5 - 5.0.4 
+		- Changelog
+			- Fix duplicate key options
+	- Cooking for Blockheads 6.3.17 - 6.4.71
+		- Changelog
+			- Fixed custom 2x2 recipes (e.g. by CraftTweaker) not working correctly in the Cooking Table / Recipe Book
+			- Fixed Cow in a Jar recipe showing up in JEI even if it is disabled
+			- Fixed InventoryTweaks sorting buttons being aligned incorrectly in fridge and large counter GUIs
+			- Fixed fridge not rendering items when it's flipped
+			- Added Korean Translation 
+	- Corail Tombstone 2.3.0 - 3.6.0
+		- Changelog
+			- relook the knowledge guiscreen
+			- fix nightvision not active with True Sight/Ghostly Shape (since 3.5.7)
+			- Scroll of Reach
+	- Crafting Tweaks 8.1.6 - 8.1.9
+	 	- Changelog
+	 		- Added a workaround to deal with EnderIO's invasive recipe book button hijacking, which was causing it to overlap with the tweak buttons
+	-	CraftTweaker 4.0.12 - 4.1.19
+	 	- Changelog
+	 		- Properly check the display tag instead of the root tag for pre-existing Lore
+	 		- Added some null checks and code cleanup Close
+	 		- Added player#sendStatusMessage Close
+	 		- Tooltip overhaul, remove tooltips by regex, Closes
+	 		- Implement IAction validation
+	 		- Added IFormattedText version of sendStatus
+	 		- Added keyboard support Close
+	- Custom Main Menu 2.0.8 - 2.0.9
+		- Changelog
+			- Added: anchor Property to Labels
+			- Changes whether the coordinate of the label refers to the "start" , "middle" or "end" of the text it contains
+			- Added: refreshInterval Property for web text
+			- There's also a new way to define text so it can actually have properties on its own
+			- This is an example for web text
+	- Cyclops Core 0.11.1 - 1.5.1
+		- Changelog
+			Fixes:
+				- Block scrollbar position from becoming negative
+				Closes CyclopsMC/IntegratedTerminals
+	- Default Options 9.2.5 - 9.2.8
+		- Changelog
+			- Added default difficulty option for new worlds
+			- Added option to lock worlds to the default difficulty
+	- Dimensional Edibles 1.0 - 1.3.1
+		- Changelog
+			- Fixed some more teleportation issues, closes #16 and closes
+			- Added config option for cakes to not consume fuel, closes 
+			- Added config option to allow the use of custom coordinates in custom edibles
+			- Updated the textures for custom cakes and apples
+	- Dirt2Path 1.7.0 -  1.8.0
+		- Changelog
+			- Added Support for Mycelium
+			- Config Option that is on by Default
+			- Added Support for BoP Origin Grass Block and Flowering Grass Block
+			- Removed Workaround for COFH Shovels as they have long since been updated
+	- Draconic Evolution 2.3.8.279 - 2.3.24.349
+		- Changelog
+			- Fixed Draconium chest furnace freezing when backed up.
+			- Fixed furnace in Draconium chest not pulling from the last slot.
+	- EnergeticSheep 1.1.1 - 1.1.5
+		- Changelog
+			- Create sv_se.lang
+	- EvilCraft 0.10.44 - 0.10.78
+		- Changelog
+			Fixes:
+				- Fix Bound Blood Drop damage bar sometimes rendering weirdly
+				This could occur when BM sets the orb level to a value below
+				the current fill level.
+				- Fix gui progress bars always showing some progress
+				- Fix stackable fluid containers voiding when draining into machines
+				The items that won't fit anymore will pop into the world.
+				This is a temporary measure that will be rewritten in the
+				next major EC update.
+	- Exchangers 2.6.2 - 2.8
+		- Changelog
+			Full Changelog here curseforge.com/minecraft/mc-mods/exchangers/files/2621277
+	- Extra Bit Manipulation 3.2.1 - 3.4.1
+		- Changelog 
+			- Fixed localization typos. Fixes 
+			- Removed all potential for key binding NPEs. Fixes 
+	- Extra Utilities 1.7.2 -  1.9.9
+		- Changelog
+			- Fix recursion loop when shift-transfering items
+	- Extreme Reactors 0.4.5.45 - 0.4.5.67
+		- Changelog
+			- Reworked steam distribution to coolant ports in output mode: each port will get an equal amount of steam. If any port don't accept the full amount of their share the left over steam is available to the remaining ports.
+			- Fix Turbine Bearing collision bounding box.
+	- Flux Networks 3.0.2 - 4.0.12
+		- Changelog
+			- Added: GUIs for Configurator & Admin Configurator
+			- Added: Average Tick Statistic to Network Statistics tab for checking network performance.
+			- Improvement: Super Admin, is now enabled inside the Admin Configurator's GUI
+			- Improvement: Added config option to change the OP level required to activate Super Admin.
+			- Improvement: Wireless Charging GUI is now more in-keeping with the network color theme.
+			- Improvement: Some GUI Optimisations
+			- Bug Fixed: Configurator copying priority settings incorrectly
+			- Bug Fixed: Configurator not pasting settings Flux Storage
+	- FoamFix for Minecraft 0.8.1 - 0.10.8
+		- Changelog
+			-Automatically disables patches (suspected to be) unsafe (and/or expected to be handled by due to other patches) in combination with JustEnoughIDs and SpongeForge.
+	- Forestry 5.7.0.232 - 5.8.2.408
+		- Changelog
+			- Full changelog here curseforge.com/minecraft/mc-mods/forestry/files/2806589
+	- Forgiving Void 1.0.12 - 3.0.7
+		- Changelog
+			- Update to breaking changes in Forge
+	- FTB Library 4.2.5 - 5.4.3.141
+		- Changelog
+			- Fixed yet another crash
+	- FTB Utilities 4.2.4 - 5.4.0.108
+		- Changelog
+			- Added Aurora integration, removed all permissions files, removed command error printing 
+			- Changed CurseMaven version to 1.2.+ to fix build issue
+	- FTB Utilities: Backups
+		- Changelog
+			- There's no changelog
+	- Funky Locomotion 1.1.0 - 1.1.2
+		- Changelog
+			- Fix crash when moving entities related to renamed fields.
+			- Add support for ForgeMultipartCBE
+	- Gadgetry: Core 0.1.1 - 1.0.0
+		- Changelog
+			- Removed EluLib/Mystical Lib dependency
+			- Fixed a crash when looking at the drill on a server
+			- Fixed a crash when using the sprinkler
+			- Made the mod maintainable until a full rewrite can be done
+	- Gadgetry: Machines 0.1.2 - 1.0.1
+		- Changelog
+			- Fixed crash when using Oil Wells
+	- GooglyEyes 7.0.2 - 7.1.1
+		- Changelog
+			- Added allPlayersHaveGooglyEyes config. Makes all players have googly eyes if turned on.
+			- Fixed disabledGoogly config not using registry names.
+	- Hammer (Lib) Core 1.9.6.2 - 2.0.5.3 
+		- Changelog 
+			- Full changelog here curseforge.com/minecraft/mc-mods/hammer-lib/files/2811725
+	- Hatchery 2.1.2 - 2.2.2
+		- Changelog
+			- Removed testing code from logs.
+	- Hats 7.0.2 - 7.1.0
+		- Changelog
+	        - Fixed Hats not being downloaded from the creeperhost repository due to a broken URL.
+	        - Fixed crash when morphing into an entity that does not use RenderLivingBase.
+	        - Fixed (temp) sneak height for hats. Hats disabled entirely if player is flying using elytra.
+	        - Fixed Trading not working.
+	        - Trying to set the Hats keybind in the Hats Selection menu now opens up iChunUtil's config editor.
+	        - Attempted fix for Better Portals' Ghost Hats bug when travelling to another dimension.
+	        - Removed Thaumcraft Pech support.
+	        - Sign jar.
+	- iChunUtil 7.1.4 - 7.2.2
+	    - Changelog 
+			- Wait for post init before firing RendererSafeCompatibilityEvent. Should fix crashes with iChunUtil and GooglyEyes when paired with certain mod configurations.
+	- Immersive Engineering  0.12-76 -  0.12 - 92
+		- Changelog  
+			- Requires Forge version 14.23.5.2820 or higher
+			- Added Steel Armor, crafted from steel plates
+			- Added a second MultiblockFormEvent to the API, to fire *after* the structure has been checked
+			- Fixed client only translation reference crashing on servers
+			- Fixed client only references in Chutes
+			- Fixed Coresamples without coordinates resulting in a client crash
+			- Fixed transformers on posts not accepting wires properly
+	- Immersive HempCraft 0.0.4.0 - 0.0.7.1
+		- Changelog
+			- Fixed #2: Crash with trying to plant Potent Seed in Light Mix
+	- In Control! 3.6.5 - 3.9.16
+		- Changelog
+			- Fixed a problem where 'onjoin' rules were also firing on the client which could cause issues with some of the conditions that don't properly work on the client
+	- Industrial Expansion [TE Addon] 1.2.5 - 1.2.6
+		- Changelog
+			-libs...
+	- Industrial Foregoing 1.6.6-113 - 1.12.13-237
+		- Changelog
+			- Increased Version
+			- Just pink gets highlighted
+			- Fixed fluid pump thinking that flowing fluids were a full fluid
+			- Fluid Dictionary Converter now renders the name of fluids without a bucket
+			- Fertilizer now works inside dispensers
+			- Fixed Enchantment Applicator accepting stack sizes bigger than 1
+			- Fixed Oredictionary issues
+			- Fixed Plant interactor not harvesting plants if the bottom block in the area couldnt be broken
+			- Infinity drill's mining/digging level is max now
+	- Integration Foregoing 1.4 - 1.9
+		- Changelog
+			- Requires Industrial Foregoing (at least 1.12.0)
+			- Refactored quite a large portion of the codes
+			- Backend optimizations
+			- Added Russian translation, closes #39
+			- Laser Drill entries rework:
+			- Removed Astral Sorcery Starmetal Ore out of Laser Drill entries for balancing reasons
+			- Rewritten most of the Laser Drill entries to have different Y levels and biomes
+			- Some Laser Drill entries now uses OreDict instead of registry names
+	- Iron Chests 7.0.34.820 - 7.0.72.847
+		- Changelog
+			- Bugfixes:
+				- The long time bug of inventories disappearing when the chests are in the same chunk as a tinker's smeltery should FINALLY be fixed.
+				- Hopefully fix the TPS issue regarding hoppers.
+	- ItemZoom 1.10 - 1.11
+		- Changelog
+			- Integrate with JEI 4.14 bookmarks to avoid overlapping
+	- JAOPCA 2.2.5.64 - 2.2.8.103
+		- Changelog
+			- Updated Embers support
+			- Made tiny dusts able to be compressed in IC2's compressor
+			- Improved textures - thanks to RCXCrafter
+	- JAOPCAAdditions 2.2.0.6 - 2.2.1.9
+		- Changelog
+			- Added slabs
+			- Added stairs
+	- JourneyMap 5.6.0b1 - 5.5.5
+		- Changelog
+			- Full Changelog here curseforge.com/minecraft/mc-mods/journeymap/files/2755458
+	- Just Enough HarvestCraft (JEHC) 1.3.1 - 1.6.4
+		- Changelog
+			-Added ko_kr.lang
+	- Just Enough Items (JEI) 4.8.5.144 - 4.15.0.291
+		- Changelog
+			- Full changelog here curseforge.com/minecraft/mc-mods/jei/files/2803400
+	- KleeSlabs 5.3.2 - 5.4.12
+		- Changelog
+			- Fixed some Botania slabs erroring in log and not functioning correctly
+			- Fixed block highlight for slabs not being positioned correctly depending on player position
+	- Magneticraft   2.0.5 - 2.8.2-dev
+		- Changelog
+			- Add Shelving unit search bar synchronization with JEI (disabled by default in config)
+			- Add support for in-game config edit
+			- Add SmallTank tooltip
+
+			- Fix number format with _ character
+			- Fix recipes with weird positioning rules
+			- Add config option to disable auto-select search bar in shelving unit
+			- Change multiblock floating message to rotate in a single plane
+			- Render inventory items in the hydraulic press model
+			- Fix inserter not inserting in the electric furnace if they are in the same level
+			- Rename 'Big' multiblocks
+			- Fix progress percent in machine that are not crafting
+			- Change inserter button tooltips
+			- Fix conveyor belt model rendering legs when on top of a torch
+			- Add @mod support in the shelving unit search bar
+			- Fluid tanks keep contents when broken
+			- Update costs in crafting recipes
+			- Fix several GUI missing translations
+			- Change Gasification Unit speed to 10x
+	- MalisisCore 6.3.1 - 6.5.1
+		- Changelog
+			- Fixed mixin/sponge compatibility
+	- MalisisDoors 7.2.3 - 7.3.0
+		- Changelog
+			No changelog 
+	- Mantle 1.3.1.21 - 1.3.3.55
+		- Changelog
+			- Made PulseManager::isPulseLoaded case insensitive
+			- Allow PulseManager::isPulseLoaded to check if pulses from other Mantle mods are loaded, instead of just the same mod
+			- Added static PulseManager::isPulseLoadedGlobal, checks if a pulse is loaded without a PulseManager instance. Can be used by ModuleFileRepository to instantiate without a pulse manager
+			- ModuleFileRepository sections now support attaching a module dependency to pages instead of just sections
+	- McJtyLib 2.6.2 - 3.5.4
+		- Changelog
+			- Fixed a problem when receiving packets from the client where it would sometimes process things on the wrong thread
+	- Mekanism 9.4.3.330 - 9.8.2.389
+		- Changelog
+			- No changelog
+	- Mekanism Generators 9.4.3.330 - 9.8.2.389
+		- Changelog
+			- No changelog
+	- Mekanism Tools 9.4.3.330 - 9.8.2.389
+		- Changelog
+			- No changelog
+	- Moar Tinkers 0.5.4 - 0.6.0
+		- Changelog
+			- Removed some materials not being used or have been added by the mod itself
+			- Fixed some materials not working
+			- Fixed repair/eater traits
+			- Materials will not be loaded if it is already loaded by another mod
+	- ModelLoader 1.0.5 - 1.1.7
+		- Changelog
+			- Option to disable textures in AnimationBuilder.
+			- Add support for indexed meshes in gltf models.
+			- Update how gltf model textures paths are generated.
+	- ModTweaker  4.0.6 - 4.0.17
+		- Changelog
+			- Thaumcraft salis mundus support 
+			- Thermal Expansion coolant
+			- Thermal Expansion Factorizer
+	- More Chickens 3.0.0 - 3.1.0
+		- Changelog
+			- Added more Tech Reborn chickens. 
+			- Fixed Chickens missing parents so you couldn't breed them (Files need re-gen or edited to add parents)
+			- Fixed eggs now showing correct tool tips. 
+			- Other small bug fixes. 
+	- More Overlays 1.13 - 1.15.1
+		- Changelog
+			- Fixed: Region files actually store 32 by 32 Chunks
+			- Fixed: Region offset at negative chunk coordinates
+			- Fixed: Region filename doesn't render sometimes
+	- Morpheus 3.3.2 - 3.5.106
+		- Changelog
+			-Update to 1.12.2 and bump required forge version
+	- Mouse Tweaks 2.8 - 2.10 
+		- Changelog
+			- Added a new setting for switching between "smooth scrolling, minor issues" and "non-smooth scrolling, no issues", set to smooth scrolling by default. The second option fixes a number of issues where Mouse Tweaks seemingly scrolls "through" another mod's GUI (namely JEI): 1, 2, 3. Unfortunately, enabling the second option also makes the item scrolling a little non-smooth. Considering that the aforementioned issues require rather specific conditions to trigger and aren't very impactful, while scrolling items is something you do all the time and want the experience to be as good as possible, the setting was left at "smooth scrolling" by default. Huge thanks to @mezz for contributing the fix and explaining the underlying input mechanics.
+			- Fixed Mouse Tweaks clicking "through" some mods' GUIs (namely JEI): read above for details. The fix is active regardless of the smooth/non-smooth scrolling setting value.
+			- Added tooltips to all settings in the Forge Mod Options menu.
+	- MTLib 3.0.1 - 3.0.6
+		- Changelog
+			- Fixed logging warnings
+	- MysticalLib 0.1.11 - 1.3.8 
+		- Changelog
+			- This mod is now compiled against the latest version of Forge for 1.12.2, 2847.
+			- Properly annotate functions with @Override
+			- ItemUtil functions to fetch ItemStacks from BlockStates and vice versa.
+			- Adjusted the size of leaf particles to prevent Mip-Map errors.
+			- Fix Roots #221: baffle-cap mushroom blocks use the wood sound instead of hte stone sound.
+			- Hopefully fix situations where high values of fortune can result in 0 drops being made from ore blocks (such as Amethyst Ore).
+			- New system for handling handing-out-books-upon-login that can be extended by other mods.
+			- New system for dynamically generating blockstate files for various block types: "block", "button", "double_slab", "fence", "fence_gate", "pressure_plate", "slab", "stairs", "wall" 
+			- multi-texture blocks (log, door, trapdoor) coming soon.
+			- Moved the entity cooldown capability serialisation into the base code to prevent duplication of effort.
+	- No Mob Spawning on Trees 1.2.1 - 1.2.2
+		- Changelog
+			Just an update to 1.12.2
+	- OC Sensors 1.0.2-b12 - 1.0.4-b23
+		- Changelog
+			- Added support for villagers: showing profession, career and offered trades
+			- Fixed furnace isBurning property using the wrong obfuscated name
+			- Fixed entity search bounding box being offset by 0.5 on each axis
+			- Make sure the entity search bounding box is at least 1 block in size
+	- OpenBlocks Elevator  1.3.5 - 1.3.12
+		- Changelog
+			- Make teleporting thread-safe
+	- OpenComputers  1.7.4.153 - 1.7.1.43
+		- Changelog
+			- Misc: when powering on, drones may fly a bit higher
+			will fly a above their starting block to get above nonfull blocks (such as chests)
+			- Misc: more robot names
+			- Misc: robot/drone swing respects harvestability of block vs tool
+			- Fixed: zero sized files (bufferChanges failing to do its job)
+			- Fixed: client crash when using remote terminal out of range
+			- Fixed: inventory controllers now honor specified target slot
+			- Fixed: T1 wireless cards now properly ignore wired messages
+			- Fixed: waila integration by checking for nulls with relay block
+			- Fixed: practical logisitics integration by not passing null for EnumFacing
+			- Fixed: locking items in hotbar when gui is open
+			- Fixed: some container names
+			- Fixed: fixed event timing issues when pulling smaller timeouts than a current timer
+			- Added: tty handles '\v' code to move cursor down one line
+			- Misc: some openos cleanup
+			- Misc: more memory savings
+			- Misc: slightly faster boot up times
+	- Ore Excavation 1.4.109 - 1.4.143
+		- Changelog
+			- Fixed must hold mode not saving undo history when excavations end early
+			- Added new command to allow undo to replace blocks like liquids
+			- Added new admin command to force undo other player's excavations
+	- Ore Excavation Integration 2.3.2 - 2.3.4
+		- Changelog
+			- Added required dependency on oreexcavation, so now it won't crash but show a can't load without it message
+			- Added enchantment description
+	- PackMode 1.1.0 - 1.2.0
+		- Changelog
+			 - GameStage integration: You can switch gamestages when switching pack modes (Doesn't require a restart)
+			 - CraftTweaker no longer required 
+	- Pam's HarvestCraft  1.12.2h - 1.12.2zf
+		- Changelog
+			- Added: Crop: Juniper Berries
+			- Fixed: Names: Missing crop block names
+			- Fixed: Missing seed drop configs (yes I know taro is mispelled but changing it would make people have to regen configs and that seems silly)
+			- Fixed: Fixed drops registering log message
+	- Placebo 1.1.3 - 2.3.1
+		- Changelog
+			- Added a null check to AttributeHelper.
+	- Platforms 1.4.2 - 1.4.6
+		- Changelog
+			- Added a tooltip to the wrench, pointing out the offhand function
+			- Added option to use vanilla styled GUIs
+			- Changed how platform selection works. When you sneak right-click with a wrench, it no longer cycles through the available options, rather it now opens a GUI. The old method is still available via a config option.
+	- PlusTiC 6.3.2.1 - 7.1.6.1
+		- Changelog
+			- Fix Blind Bandit spawning bug
+	- Psi r1.1-59 - r1.1-77
+		- Changelog
+			- Removed the now irrelevant energy cap message.
+			- Added a helper method for detonating.
+			- Added DetonationEvent.
+			- CADs can now be provided by other items.
+			- Increased version number to 15.
+	- QuantumStorage 4.4.6 - 4.7.0
+		- Changelog
+			- Added Storage Multiblock.
+			- Added Baubles Support for Quantum Battery.
+			- Added AutoEject to QuantumTanks.
+			- Added Concrete Powder to Concrete recipe by clicking on a QuantumTank with water inside
+			- Added Quantum Crate (Larger than diamond)
+			- Added shift clicking next page button to increase by 10
+			- Added Keybinding to open bag default numberpad 1
+			- Added Inventory Remote (Link to an Inventory to open remotely)
+			- Fixed Overflow with Quantum Disks.
+			- Fixed Trashcan missing textures.
+			- Fixed Quantum Tanks gui always opening.
+			- Fixed Creative Upgrade.
+			- Fixed QuantumStorage utils accepting other items
+			- Changed Recipes for Crates.
+			- Changed Recipes for Trashcans
+			- Changed Quantum Bags to not allow bags to go inside them
+	- Quark  r1.4-121 - r1.6-177
+		- Changelog
+			- Management: Fixed a dupe with chests in boats.
+			- Misc: Fixed the Horse Whistle having a very tiny range.
+			- Misc: Iron Chains no longer cause minecarts to never shut up.
+			- Tweaks: Fixed the slabs to blocks recipe not working sometimes.
+			- World: Fixed stonelings always spawning with frogs.
+			- World: Fixed stonelings not being tamable properly.
+			- World: Fixed stonelings spawning with frogs and then despawning and leaving the frogs behind.
+	- ReAuth 3.5.2 - 3.6.0 
+		- Changelog
+			- Fixed being unable to enter § into the Password-Field
+			- Added Maven-Artifact to Manifest
+	- Reborn Core 3.6.2.187 - 3.16.3.476
+		- Changelog
+			- #releaseBuild
+			- I hope this should fix TechReborn/TechReborn#1832
+			- Fix build in eclipse
+	- Reborn Storage 3.0.3.36 - 3.3.4.85
+		- Changelog
+			- #releaseBuild
+			- fix crash when breaking connected multiblock
+	- Redstone Arsenal  2.3.8.21 - 2.6.3.18
+		- Changelog
+			-Reduced damage of Flux-Infused Bow a bit. Multiplier was unintentionally high.
+	- Redstone Flux 2.0.1.2 - 2.1.0.6
+		- Changelog 
+			- Some internal changes on how versioning is read; this will be used for gradual transition AWAY from this dependency. :)
+	- Refined Storage 1.5.31 - 1.6.15
+		- Changelog
+			- Fixed recipes with more than 1 bucket of fluid not transferring from JEI
+			- Fixed oredict crafting patterns redefining recipes
+			- Fixed Portable Grids not keeping their enchantments when placed
+			- Shortened crafting text for the Russion translation to fix Grid overlays
+			- Fixed JEI hotkeys not working on fluid filter slots 
+			- Fixed crash when opening Crafter Manager with FTB Quests installed 
+			- GregTech Community Edition Wires and Machines are now banned from rendering on Refined Storage patterns because they are causing crashes
+			- Fixed a bug where the container slots weren't synced when opening a Grid
+	- Refined Storage Addons 0.2 -  0.4.4
+		- Changelog
+			- Refined Storage 1.6.13 compatibility
+	- RFTools 7.23 - 7.72
+		- Changelog
+			- Fixed modular storage so it works nicely with the new selection feature in McJtyLib
+			- Fixed the scanner so that it doesn't cause server-side crashes for client-siude code
+			- Joseph fixed a crash involving the matter transmitter
+			- Fixed the Builder so that it no longer causes crashes when enabling support mode for large areas
+	- Roost 1.2.0 - 2.0.10
+		- Changelog
+			- Improved load times and RAM usage
+			- Added icon and tooltip to "broken" captured chickens, which may be seen after uninstalling another mod.
+	- Shadowfacts' Forgelin 1.6.0 - 1.8.4
+		- Changelog
+			- Update Kotlin to 1.3.50, Coroutines to 1.3.1, and fix JDK7/8 stdlib modules not being shadowed.
+	- ShetiPhianCore 3.5.5 - 3.5.9
+		- Changelog
+			- Fixed formatting error on OneProbe tooltip for colorable blocks
+			- Added helper functions for Comparator output calculations
+	- Solar Flux Reborn 3.42r - 4.35r
+		- Changelog
+			No changelog
+	- Sonar Core 5.0.4 - 5.0.19
+		- Changelog
+			- Minor change to GUI Text Boxes for Flux Networks
+	- Statues 0.8.1 - 0.8.9
+		- Changelog
+			- Added a config option so functional tiers (Tiers that can give loot) can be disabled fully. Which will only load in decorative/sound statues. (So they can be used as decoration)
+	        - All advancements have been removed for the time being. They'll be redone in the future.
+	- Storage Drawers 5.3.3 - 5.4.0
+		- Changelog
+			- Drawers keep their items when broken by default. Toggleable in config.
+			- Certain Thaumcraft items will render their aspect labels on drawers again.
+			- Avoid unnecessary item stack copying in the "get" function of IItemHandler, which may improve performance interacting with other inventories/storage transport systems.
+			- Fix crash when loading key button recipes with keys disabled
+	- Tech Reborn 2.11.1.420 - 2.24.2.1041
+		- Changelog 
+			- #releaseBuild
+			- Micro clean up
+			- Fix JEI transfer and chemical reactor recipes. Closes #1841
+			- FIx grinder energy usage. Closes #1849
+			- Better error handling for IBF heat calc. Should help with #1740
+			- Iron Alloy furnace is back in a saddle. Closes #1846
+			- Fixed item for rubber slab. Closes #1738
+			- Finalise 1.12 translations
+			- Fixed solar panel translation. Closes #1834
+	- Tesla Core Lib 1.0.12 - 1.0.15.13
+		- Changelog
+			- fixed performance issues with too many sync packages
+	- Thermal Dynamics 2.3.8.16 - 2.5.5.21
+		- Changelog
+			-Some mods are really stupid. This hopefully makes them less stupid. (Kappa)
+	- Thermal Expansion 5.3.8.38 - 5.5.4.43
+		- Changelog
+			-Localization! Also fixes a couple of minor issues such as tank rendering.
+	- Thermal Foundation 2.3.8.22 - 2.6.3.27
+		- Changelog
+			-Localization update!
+	- Tinker I/O  2.5.6e - rw2.7.1
+		- Changelog
+			- Fix sided proxy, add sideonly to common classes. (Thanks tgstyle for the pull request.)
+			- Add a config to control the speed of Smart Output.
+	- Tinkers Construct 2.9.0.55 - 13.0.171
+		- Changelog
+			Full changelog here curseforge.com/minecraft/mc-mods/tinkers-construct/files/2809406
+	- Tinkers' Complement 0.2.2b - 0.4.2
+		- Changelog
+			Full Changelog curseforge.com/minecraft/mc-mods/tinkers-complement/files
+	- Tinkers' Tool Leveling 1.0.3 - 1.1.0
+		- Changelog
+			- Added the ability to increase the xp rampup
+			- pt_br localization
+	- TipTheScales 1.0.1 -  1.0.4
+		- Changelog
+			- display all options a monitor could possibly have at all times
+	- Toast Control 1.3.0 - 1.8.1
+		- Changelog
+			- Fixed a crash when dealing with unusual keyboards.
+	- Torchmaster 1.6.1.53 - 1.8.0.79
+		- Changelog
+			- FIX: Fixed rendering of the dread lamp glass texture
+			- FIX: Improved compatibility with quark mobs (stonelings and frogs in particular, both should be blocked by the dread lamp)
+			- NEW: Added /torchmaster_entity_dump command. Dumps all registered entities to the log file (Registered to the game, the mega torch and dread lamp)
+			- NEW: Added /torchmaster_list_torches command. Dumps all mega torches and dread lamps of loaded dimensions to the log file
+			- NEW: Added mega torch and dread lamp white/black listing option
+
+* Forge Update: 14.23.5.2847
