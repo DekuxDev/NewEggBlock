@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
-    "HILLS",
-    "FOREST"
+    "FOREST",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -107,10 +107,88 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeSpider",
+      "Weight": 25,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeZombie",
+      "Weight": 23,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeSkeleton",
+      "Weight": 25,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeCreeper",
+      "Weight": 25,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeSlime",
+      "Weight": 25,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeEnderman",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeWitch",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityRaider",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityBrute",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityRaiderWitch",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityTweaker",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityPyromaniac",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityRanger",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [
