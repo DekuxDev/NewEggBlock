@@ -18,12 +18,14 @@ EggBlock Rebuild Update
 *Added
 	- Ender Storage 1.8.+
 	- FTB Quest (Replace BetterQuesting mods)
-			-ItemFilters
+			- ItemFilters
+			- LootTweaker
 	- Hwyla
 			-WathAreLokingAt (Wawla)
+	- JustEnoughIDs (Fix ID limit issue)
+	- LootBags (Reward system)
 	- Snad (Replace JustAnotherSnad)
 	- Raiders
-	- JustEnoughIDs (Fix ID limit issue)
 *Update
 	- Actually Additions r126 - r150
 		- Changelog
