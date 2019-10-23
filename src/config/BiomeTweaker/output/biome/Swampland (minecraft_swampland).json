@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "WET"
+    "WET",
+    "SWAMP"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -150,12 +150,6 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     },
     {
       "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityRaider",

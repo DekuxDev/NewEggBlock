@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "FOREST",
-    "COLD",
-    "HILLS",
     "CONIFEROUS",
-    "SNOWY"
+    "SNOWY",
+    "HILLS",
+    "FOREST",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -115,6 +115,12 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeSpider",
       "Weight": 25,
       "Min Group Count": 4,
@@ -155,12 +161,6 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     },
     {
       "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityRaider",

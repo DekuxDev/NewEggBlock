@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "JUNGLE",
+    "WET",
     "HOT",
-    "DENSE",
-    "WET"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -68,6 +68,12 @@
       "Weight": 5,
       "Min Group Count": 2,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
     },
     {
       "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
@@ -166,12 +172,6 @@
       "Weight": 40,
       "Min Group Count": 1,
       "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     },
     {
       "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityRaider",

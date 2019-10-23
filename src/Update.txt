@@ -15,6 +15,8 @@ EggBlock Rebuild Update
 	- EnderTanks (Replace by Ender Storage 1.8.+)
 	- MultiStorage
 	- Player Skin Mob (Replace by Raiders)
+	- Inventory Tweaks (Replace by Inventory Sorter)
+	- Void Island Control (Replace by Topography)
 *Added
 	- Ender Storage 1.8.+
 	- FTB Quest (Replace BetterQuesting mods)
@@ -22,10 +24,14 @@ EggBlock Rebuild Update
 			- LootTweaker
 	- Hwyla
 			-WathAreLokingAt (Wawla)
+	- Inventory Sorter
 	- JustEnoughIDs (Fix ID limit issue)
 	- LootBags (Reward system)
+	- MineTogether
+		- LetsEncrypCraft
 	- Snad (Replace JustAnotherSnad)
 	- Raiders
+	- Topography
 *Update
 	- Actually Additions r126 - r150
 		- Changelog
@@ -130,9 +136,11 @@ EggBlock Rebuild Update
 		- Changelog
 				- Small change to help with Ender IO integration to allow chickens in its spawners. 
 				- Fixing server side crash when using Craft Tweaker to change spawn egg recipe. 
-	- Chisel 0.1.1.26 - 1.0.0.42
+	- Chisel 1.0.0.42 -  1.0.1.44
 		- Changelog
-				- curseforge.com/minecraft/mc-mods/chisel/files/2809394	(Its to long, so if you wanna know what is new here is the link)
+				Fixes
+				- #794 Make chisel ice compatible with blocks that disable ice melting
+				- #796 Re-add accidentally removed configs for features
 	- Chisels & Bits 14.12. - 14.33 
 	    - Changelog
 	        - Fix an issue with item duplication.
@@ -257,6 +265,9 @@ EggBlock Rebuild Update
 		- Changelog
 			- Reworked steam distribution to coolant ports in output mode: each port will get an equal amount of steam. If any port don't accept the full amount of their share the left over steam is available to the remaining ports.
 			- Fix Turbine Bearing collision bounding box.
+	- Fence Overhaul 1.3.2 - 1.3.4
+		- Changelog
+			- Fixed incorrect side handling that would crash servers
 	- Flux Networks 3.0.2 - 4.0.12
 		- Changelog
 			- Added: GUIs for Configurator & Admin Configurator
@@ -273,16 +284,17 @@ EggBlock Rebuild Update
 	- Forestry 5.7.0.232 - 5.8.2.408
 		- Changelog
 			- Full changelog here curseforge.com/minecraft/mc-mods/forestry/files/2806589
-	- Forgiving Void 1.0.12 - 3.0.7
+	- Forgiving Void 1.0.12 - -1.0.23
 		- Changelog
-			- Update to breaking changes in Forge
-	- FTB Library 4.2.5 - 5.4.3.141
+			- Fix slime blocks not cancelling fall damage properly when falling from the void
+			- Fix damageOnFall config options being restricted to 20 hearts, clashing with mods that increase the max health
+	- FTB Library 5.4.3.141 - 5.4.3.143
 		- Changelog
-			- Fixed yet another crash
-	- FTB Utilities 4.2.4 - 5.4.0.108
+			- Added hollow_rectangle:color icon, removed color param from draw() - LatvianModder
+			- Added properties to icons - LatvianModder
+	- FTB Utilities 5.4.0.108 - 5.4.0.110
 		- Changelog
-			- Added Aurora integration, removed all permissions files, removed command error printing 
-			- Changed CurseMaven version to 1.2.+ to fix build issue
+			- Added hollow_rectangle:color icon, removed color param from draw() - LatvianModder
 	- FTB Utilities: Backups
 		- Changelog
 			- There's no changelog
@@ -696,5 +708,18 @@ EggBlock Rebuild Update
 			- NEW: Added /torchmaster_entity_dump command. Dumps all registered entities to the log file (Registered to the game, the mega torch and dread lamp)
 			- NEW: Added /torchmaster_list_torches command. Dumps all mega torches and dread lamps of loaded dimensions to the log file
 			- NEW: Added mega torch and dread lamp white/black listing option
+	- Yoyos  1.2.0.18 - 1.3.3.25
+		- Changelog
+			- Fix potential crash rendering the cord.
+			- Fix mana yoyos not auto repairing.
+	- Zetta Industries 1.3-1.12.2-145 - 1.3-1.12.2-161
+		- Changelog
+			- update IE and forge to new version
+			- fixed : setIn() / setOut() erases power tap label
+			- add doc to battery computer port methods.
+			- fixed #77: language file keys don't include mod id, causing conflicts
+			- fixed OpenComputers integration of battery, ECatalogue and backpack
+
+
 
 * Forge Update: 14.23.5.2847

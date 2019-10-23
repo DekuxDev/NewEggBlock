@@ -10,6 +10,14 @@ Constructor:
     Notes:
         This constructs a VanillaLakeGenerator. Generates lakes filled with the supplied block.
 
+setHeight:
+    Arguments:
+        int, int
+    Usage:
+        min height, max height
+    Notes:
+        Sets the minimum and maximum heights the generator will attempt to spawn in.
+
 setSpawnChance:
     Arguments:
         int
@@ -25,12 +33,4 @@ blacklistBiome:
         biomes to blacklist
     Notes:
         Adds biomes that the generator will not attempt to spawn in.
-
-setHeight:
-    Arguments:
-        int, int
-    Usage:
-        min height, max height
-    Notes:
-        Sets the minimum and maximum heights the generator will attempt to spawn in.
 

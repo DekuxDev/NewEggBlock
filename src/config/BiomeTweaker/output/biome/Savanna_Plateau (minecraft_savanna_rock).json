@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
+    "SPARSE",
     "HOT",
     "PLAINS",
-    "SPARSE",
     "SAVANNA"
   ],
   "BiomeManager Entries": {},
@@ -77,6 +77,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    },
+    {
       "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",
       "Weight": 10,
       "Min Group Count": 1,
@@ -121,6 +127,12 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "com.svennieke.statues.entity.fakeentity.FakeSpider",
       "Weight": 25,
       "Min Group Count": 4,
@@ -161,12 +173,6 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     },
     {
       "Entity Class": "com.gendeathrow.pmobs.entity.mob.EntityRaider",
